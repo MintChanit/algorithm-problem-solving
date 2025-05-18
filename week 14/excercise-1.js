@@ -8,6 +8,7 @@
 
 function isEvenNumber(num) {
    //Start Coding Here
+   return num%2 === 0
 };
 
 let result1 = isEvenNumber(4);
@@ -15,3 +16,9 @@ console.log(result1); // true
 
 let result2 = isEvenNumber(7);
 console.log(result2); // false
+
+let result3 = isEvenNumber(71);
+console.log(result3); // false
+
+let result4 = isEvenNumber(2);
+console.log(result4);
