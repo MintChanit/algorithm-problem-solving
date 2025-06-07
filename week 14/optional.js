@@ -22,5 +22,5 @@ console.log(result1); // true
 let result2 = isPalindrome("hello");
 console.log(result2); // false
 
-let result3 = isPalindrome("Hannah");
+let result3 = isPalindrome("hannah");
 console.log(result3);
